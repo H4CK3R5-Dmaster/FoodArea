@@ -84,6 +84,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
   .header-image {
     height: 115px;
     width: 100%;
@@ -94,6 +95,8 @@ export default defineComponent({
   }
   .txt {
     margin-left: 41%;
+    font-family: Libre Baskerville;
+    
     //color: gray;
   }
 
