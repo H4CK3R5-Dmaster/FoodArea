@@ -93,7 +93,7 @@ export default defineComponent({
   
   }
   .txt {
-    margin-left: 45%;
+    margin-left: 41%;
     //color: gray;
   }
 

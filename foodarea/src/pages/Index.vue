@@ -7,17 +7,27 @@
     > -->
      <q-btn-group push>
       <q-btn color="blue" push size="22px"  label="Connexion" />
-      <q-btn push size="22px" label="Inscription" />
+      
+      <q-btn color="red" push size="22px" label="Inscription" />
     </q-btn-group>
+    
   </q-page>
 </template>
 
 <script>
 import { defineComponent } from 'vue';
 
+
+
+
+
 export default defineComponent({
-  name: 'PageIndex'
+  name: 'PageIndex',
+
+  
 })
+
+
 </script>
 <style lang="scss">
   .btn{
